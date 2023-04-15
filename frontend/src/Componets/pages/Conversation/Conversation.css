@@ -1,0 +1,7 @@
+.conversation{
+    height: calc(100vh - 100px);
+}
+
+.sidebar{
+    top:calc(100vh - 160px);
+}
