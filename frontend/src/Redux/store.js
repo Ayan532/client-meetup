@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { ConversationReducer } from "./Slice/ConversationReducer.js";
-import { friendsReducer, interestReducer } from "./Slice/InterestReducer.js";
-import { profileReducer, userInterestReducer, userReducer } from "./Slice/UserReducer";
+import { friendsReducer, interestReducer } from "./Slice/InterestReducer.js.js";
+import { profileReducer, userInterestReducer, userReducer } from "./Slice/UserReducer.js";
 
 
 const store= configureStore({
